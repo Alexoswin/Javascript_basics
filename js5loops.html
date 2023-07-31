@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> LOOPS in JS </h1>
+    <script>
+        let i =0;
+        for(i=0;i<5;i++){
+            console.log(i);
+        }
+
+        let name =["oswin ", "asdji", "iodoa","wajdi"];
+        for(let index = 0; index < name.length; index++) {
+            console.log("hello" + name[index]);
+        }
+        let l =[12,321,21,3213,31,13,12];
+       for(element of l){
+        console.log(element);
+       }
+
+       const student = {
+    name: 'Monica',
+    class: 7,
+    age: 12
+}
+
+// using for...in
+for ( let key in student ) {
+
+    // display the properties
+    console.log(`${key} is = ${student[key]}`);
+}
+
+
+
+    ///// while loop in js ///////
+
+    let x=0;
+    while(x<4){
+        console.log(x)
+        x++;
+    }
+
+
+
+    //// do while loop in js//////
+    let z=0
+    do{ console.log(`${z} is less than 4`); z++}
+    while(z<4);
+
+    </script>
+    
+</body>
+</html>

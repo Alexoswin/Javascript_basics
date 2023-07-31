@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="time">
+            this is a div 
+            <br/>
+            <br/>
+            time is 
+        </div>
+        <script>
+            console.log('this is  JS')
+
+            // settime --> allows to run the function once after the interval of time
+            //clearTimeout --> allows to run the function repatitely
+            function greet(){
+                console.log("hello world" + name);
+
+            }
+           
+            setTimeout(greet,5000);
+
+           
+            timeup = setTimeout(greet,10000);
+            clearTimeout(timeup);
+
+             intervalid = setInterval(greet,2000,"oswin")
+
+            
+
+           
+
+            function displaytime(){
+                time = new Date();
+                console.log(time);
+                document.getElementById("time")
+               
+            }
+            setInterval(displaytime , 1000);
+
+
+
+        </script>        
+    </body>
+
+</html>

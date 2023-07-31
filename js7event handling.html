@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1> Browser events</h1>
+        <ul>
+            <li>
+                ckick
+            </li>
+            <li>
+                context menu
+            </li>
+            <li>
+                mouse-over/mouse-out
+            </li>
+            <li>
+                mouse-up/mouse-down
+            </li>
+            <li>
+                mouse-move
+            </li>
+        </ul>
+        <p id="para">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste hic cumque omnis perspiciatis adipisci, nulla porro quod aliquid nihil sint maxime a consequuntur vitae nemo fugit vel temporibus numquam reiciendis.
+        Hic beatae, cumque laboriosam, aut qui nobis excepturi eveniet adipisci debitis cupiditate magnam fugiat nisi voluptatem amet consectetur odit consequatur? Numquam voluptatibus, dolores natus cum hic itaque deserunt cupiditate possimus?
+        Quod consectetur labore repudiandae ea esse, facere minus ut omnis fuga delectus porro. Odit corrupti praesentium, repellat magni cupiditate hic, nobis molestias fugiat fuga, possimus velit accusamus reprehenderit tempora eveniet.
+        Eius atque itaque earum. Placeat sed eos vel dolore laboriosam et quod harum ad, vero, accusamus optio! Placeat molestias, assumenda aperiam, velit labore maiores ut suscipit nostrum expedita deleniti fugiat?
+        Cumque, quidem dolore. Debitis, repellat vel delectus consequatur quis quidem esse ullam quaerat, ad tempora illum labore quisquam optio consectetur voluptas dicta voluptatibus molestiae minima ipsam. Accusamus repellat dolore quisquam.
+        Perspiciatis expedita, possimus iusto, vitae perferendis quos dolor eveniet obcaecati non, accusamus sit dolorum velit pariatur? Iusto accusamus ab quasi sequi excepturi molestiae deserunt in id esse quia, aperiam recusandae?
+        Optio, quasi tempore animi dicta qui, nobis aut sit maiores consectetudddddddd    r eius soluta rem? Suscipit nesciunt ut dolore esse. Libero quasi reprehenderit, ut iusto deserunt voluptas incidunt placeat ipsa facilis.
+        Tenetur consequatur at molestias, nobis id quo. Omnis corporis unde explicabo, iure quisquam in nobis veniam. Ipsa, tempora, eaque inventore suscipit aut nemo obcaecati, quaerat quos et sint repudiandae illo.
+        Voluptatem corporis accusantium sit et voluptas quos. Eligendi iure, doloremque ex voluptates ullam libero nobis aspernatur voluptatem assumenda ad harum omnis aperiam eveniet amet reprehenderit vero possimus magni sint quaerat.
+        Quo autem dolor totam optio placeat dolores a enim cupiditate quod commodi, dignissimos adipisci dolore nostrum? Adipisci non tenetur alias unde neque possimus. Nulla voluptate qui porro quod, tenetur ex?
+        In earum, tempora qui reiciendis quis natus cumque pariatur officiis maiores, beatae ducimus eum recusandae distinctio praesentium sequi dignissimos suscipit molestiae est dolore. Maiores expedita quisquam veniam sed aliquid provident.
+        Ab at aut explicabo quidem, velit eius! Ipsa numquam commodi veritatis quis ratione quam officiis. Magnam laborum consectetur quidem dicta temporibus deleniti eius earum? Error praesentium natus excepturi asperiores tempore?
+        Ullam, laborum ex odit delectus quibusdam alias cumque quaerat, officiis sed, consectetur soluta debitis. Culpa qui maxime rerum amet harum consequatur commodi blanditiis ea, maiores esse cumque odit rem natus!
+        Magni modi suscipit, commodi earum autem quis in nesciunt nihil eius exercitationem assumenda dolorum similique quae sed quam, officia recusandae et quidem! Culpa fugiat, iste suscipit similique ducimus dolorum inventore.
+        A soluta consequuntur eum sunt autem iusto laboriosam quos incidunt asperiores! Nemo, illum. Quidem molli</p>
+        <br/><br/><br/><br/>
+        <p id="neo">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat magni nemo, facere dignissimos molestiae, ut ipsam unde nobis beatae veniam dolores laudantium! Provident commodi quisquam ipsa, quos nam suscipit?
+
+        </p>
+        <button> mouseover</button>
+            <button onclick="hide()" id="btn"> show height </button>
+
+            <script>
+                function hide(){
+                    let btn =document.getElementById('btn');
+                    let para = document.getElementById('para')
+                    if(para.style.display !='none'){
+                        para.style.display='none'
+                    }
+                    else{
+                        para.style.display ='block'
+                    }
+
+
+                }
+                //mouseout /mouseover event
+                let neo = document.getElementById('neo');
+                neo.addEventListener('mouseout', function run() {
+
+                    alert('mouse inside')
+                    });
+                
+            
+
+
+            </script>
+    </body>
+</html>
