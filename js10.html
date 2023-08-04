@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -38,4 +39,46 @@
 
         </script>
     </body>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1> Arrow functions in JS</h1>
+        <div id="print">
+
+        </div>
+        <script>
+            greet = ()=> {
+                console.log("this is a arrow function");
+
+            }
+            greet();
+            setTimeout(()=>{
+                console.log("function in set timeout");
+            },2000);
+
+
+            
+            let sum =(a,b) => a+b;
+            let half= c => c/2;
+
+
+
+            let obj1 ={
+                names:['wewe','weew','rggrt','eff'],
+                speak(){
+                    this.names.forEach((student)=>{
+                        console.log("hello"+student)
+                    });
+                }
+            }
+            obj1.speak();
+            
+
+        </script>
+    </body>
+>>>>>>> origin/main
 </html>
